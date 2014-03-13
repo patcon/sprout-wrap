@@ -3,6 +3,7 @@ site 'http://community.opscode.com/api/v1'
 cookbook 'apt'
 cookbook 'platform_packages'
 cookbook 'python'
+cookbook 'homesick'
 
 cookbook 'dropbox',
   :github => 'peplin/dropbox-cookbook'
