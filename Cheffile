@@ -3,6 +3,9 @@ site 'http://community.opscode.com/api/v1'
 cookbook 'apt'
 cookbook 'python'
 
+cookbook 'janus',
+  :git => 'https://github.com/pwelch/chef-janus.git'
+
 cookbook 'patcon',
   :path => 'site-cookbooks/patcon'
 

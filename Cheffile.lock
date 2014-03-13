@@ -117,6 +117,13 @@ GIT
       homebrew (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
 
+GIT
+  remote: https://github.com/pwelch/chef-janus.git
+  ref: master
+  sha: 1a64a15f9607f2c29c634310e76268dbc1fbe022
+  specs:
+    janus (0.0.3)
+
 PATH
   remote: site-cookbooks/meta
   specs:
@@ -133,6 +140,7 @@ PATH
 
 DEPENDENCIES
   apt (>= 0)
+  janus (>= 0)
   meta (>= 0)
   osx (>= 0)
   patcon (>= 0)

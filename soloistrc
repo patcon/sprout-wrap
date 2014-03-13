@@ -8,8 +8,12 @@ recipes:
 - patcon::heroku-cli
 - patcon::nodejs
 - patcon::nvpy
+- janus
 
 node_attributes:
+  janus:
+    users:
+      - <%= ENV['USER'] %>
   patcon:
     user: <%= ENV['USER'] %>
     dbus_session_bus_address: <%= ENV['DBUS_SESSION_BUS_ADDRESS'] %>
