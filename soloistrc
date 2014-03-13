@@ -7,6 +7,7 @@ recipes:
 - patcon::hexchat
 - patcon::heroku-cli
 - patcon::nodejs
+- patcon::nvpy
 
 node_attributes:
   patcon:
