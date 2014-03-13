@@ -4,6 +4,7 @@ apt_repository "hexchat" do
   components ["main"]
   keyserver "keyserver.ubuntu.com"
   key "28949509"
+  deb_src true
 end
 
 package "hexchat"

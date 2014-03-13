@@ -6,6 +6,7 @@ recipes:
 - patcon::guake
 - patcon::hexchat
 - patcon::heroku-cli
+- patcon::nodejs
 
 node_attributes:
   patcon:
