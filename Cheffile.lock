@@ -1,8 +1,10 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
+    apt (2.3.8)
     dmg (2.1.4)
     homebrew (1.5.4)
+    platform_packages (0.4.2)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout-homebrew.git
@@ -51,7 +53,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-base
   ref: master
-  sha: 9c9acc69f1a7c84dd652bc39378eae2f3d4409bd
+  sha: 6c4c6c353f3a232dbc6752cc075b95a343d99c09
   specs:
     sprout-osx-base (0.1.0)
 
@@ -108,6 +110,13 @@ GIT
       homebrew (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
 
+GIT
+  remote: https://github.com/MarkRoddy/chef-gconf.git
+  ref: master
+  sha: 031e983e146172cdb355ed8726bc6dbab212efe2
+  specs:
+    gconf (0.0.1)
+
 PATH
   remote: site-cookbooks/meta
   specs:
@@ -117,10 +126,19 @@ PATH
       sprout-osx-settings (>= 0.0.0)
       sprout-pivotal (>= 0.0.0)
 
+PATH
+  remote: site-cookbooks/patcon
+  specs:
+    patcon (0.0.0)
+
 DEPENDENCIES
+  apt (>= 0)
+  gconf (>= 0)
   meta (>= 0)
   osx (>= 0)
+  patcon (>= 0)
   pivotal_workstation (>= 0)
+  platform_packages (>= 0)
   sprout-homebrew (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-base (>= 0)

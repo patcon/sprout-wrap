@@ -1,0 +1,2 @@
+depends "gconf"
+depends "apt"

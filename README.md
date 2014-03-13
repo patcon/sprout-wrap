@@ -27,6 +27,7 @@ Don't forget to start up Xcode once it's installed so that you can agree to the 
   
 ### 3. Clone this project
 
+    sudo apt-get install rubygems git
     git clone https://github.com/pivotal-sprout/sprout-wrap.git
     cd sprout-wrap
 
@@ -43,3 +44,9 @@ If you're running under rvm or rbenv, you shouldn't preface the following comman
 
     bundle exec soloist
 
+## Todo
+
+- fix chef-gconf
+- kill pgup/pgdown keys
+- install and config synapse hotkey
+- chromebook envvar (for dot-files)
