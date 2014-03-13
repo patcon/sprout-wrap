@@ -9,6 +9,7 @@ recipes:
 - patcon::nodejs
 - patcon::nvpy
 - patcon::gnome-do
+- patcon::hub
 - janus
 - dropbox
 

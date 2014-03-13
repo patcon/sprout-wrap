@@ -51,4 +51,3 @@ If you're running under rvm or rbenv, you shouldn't preface the following comman
 - chromebook envvar (for dot-files)
 - fix `.ssh` dir bindfs
 - trackpad sensitivity
-- hub cli tool
