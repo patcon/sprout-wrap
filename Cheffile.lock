@@ -110,13 +110,6 @@ GIT
       homebrew (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
 
-GIT
-  remote: https://github.com/MarkRoddy/chef-gconf.git
-  ref: master
-  sha: 031e983e146172cdb355ed8726bc6dbab212efe2
-  specs:
-    gconf (0.0.1)
-
 PATH
   remote: site-cookbooks/meta
   specs:
@@ -133,7 +126,6 @@ PATH
 
 DEPENDENCIES
   apt (>= 0)
-  gconf (>= 0)
   meta (>= 0)
   osx (>= 0)
   patcon (>= 0)

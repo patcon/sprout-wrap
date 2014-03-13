@@ -2,9 +2,6 @@ site 'http://community.opscode.com/api/v1'
 
 cookbook 'apt'
 
-cookbook 'gconf',
-  :git => 'https://github.com/MarkRoddy/chef-gconf.git'
-
 cookbook 'patcon',
   :path => 'site-cookbooks/patcon'
 

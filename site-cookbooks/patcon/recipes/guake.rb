@@ -1,14 +1,12 @@
 package "guake"
 
-gconf "/apps/guake/keybindings/global/show_hide" do
-  user node["current_user"]
-  attr_val "<Super>grave"
-  action :set
-end
-
-gconf "/apps/guake/style/background/transparency" do
-  user node["current_user"]
+patcon_gconf "/apps/guake/style/background/transparency" do
   attr_val 0
   attr_type "int"
-  action :set
+  user node['patcon']['user']
+end
+
+patcon_gconf "/apps/guake/keybindings/global/show_hide" do
+  attr_val "<Super>grave"
+  user node['patcon']['user']
 end

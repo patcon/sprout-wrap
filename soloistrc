@@ -8,6 +8,9 @@ recipes:
 - patcon::heroku-cli
 
 node_attributes:
+  patcon:
+    user: <%= ENV['USER'] %>
+    dbus_session_bus_address: <%= ENV['DBUS_SESSION_BUS_ADDRESS'] %>
   platform_packages:
     pkgs:
       - name: aptitude
