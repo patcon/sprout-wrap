@@ -9,6 +9,7 @@ recipes:
 - patcon::nodejs
 - patcon::nvpy
 - janus
+- dropbox
 
 node_attributes:
   janus:

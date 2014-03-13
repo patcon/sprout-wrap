@@ -5,6 +5,7 @@ SITE
     build-essential (1.4.4)
     dmg (2.1.4)
     homebrew (1.5.4)
+    pacman (1.1.1)
     platform_packages (0.4.2)
     python (1.4.6)
       build-essential (>= 0.0.0)
@@ -118,6 +119,15 @@ GIT
       sprout-osx-base (>= 0.0.0)
 
 GIT
+  remote: https://github.com/patcon/dropbox-cookbook
+  ref: rename-pkg
+  sha: 2b3637b9b7cfeb86a4b40c66d715fe946fed4fc7
+  specs:
+    dropbox (0.2.0)
+      apt (>= 0.0.0)
+      pacman (>= 0.0.0)
+
+GIT
   remote: https://github.com/pwelch/chef-janus.git
   ref: master
   sha: 1a64a15f9607f2c29c634310e76268dbc1fbe022
@@ -140,6 +150,7 @@ PATH
 
 DEPENDENCIES
   apt (>= 0)
+  dropbox (>= 0)
   janus (>= 0)
   meta (>= 0)
   osx (>= 0)

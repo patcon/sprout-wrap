@@ -52,3 +52,6 @@ If you're running under rvm or rbenv, you shouldn't preface the following comman
 - chromebook envvar (for dot-files)
 - fix `.ssh` dir bindfs
 - get homesick working
+- trackpad sensitivity
+- hub cli tool
+- fix copy/paste in guake
