@@ -15,9 +15,9 @@ SITE
       yum (~> 3.0)
 
 GIT
-  remote: https://github.com/patcon/dropbox-cookbook
-  ref: rename-pkg
-  sha: 2b3637b9b7cfeb86a4b40c66d715fe946fed4fc7
+  remote: https://github.com/peplin/dropbox-cookbook
+  ref: master
+  sha: 71f5a33909cbdba2c45ed2b8b4aa902e2ead4854
   specs:
     dropbox (0.2.0)
       apt (>= 0.0.0)
@@ -128,7 +128,7 @@ GIT
       homebrew (>= 0.0.0)
 
 GIT
-  remote: https://github.com/pwelch/chef-janus.git
+  remote: https://github.com/pwelch/chef-janus
   ref: master
   sha: 1a64a15f9607f2c29c634310e76268dbc1fbe022
   specs:

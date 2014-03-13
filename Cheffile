@@ -1,20 +1,19 @@
 site 'http://community.opscode.com/api/v1'
 
 cookbook 'apt'
+cookbook 'platform_packages'
 cookbook 'python'
 
 cookbook 'dropbox',
-  # Pending PR: https://github.com/peplin/dropbox-cookbook/pull/1
-  :github => 'patcon/dropbox-cookbook',
-  :ref => 'rename-pkg'
+  :github => 'peplin/dropbox-cookbook'
 
 cookbook 'janus',
-  :git => 'https://github.com/pwelch/chef-janus.git'
+  :github => 'pwelch/chef-janus'
 
 cookbook 'patcon',
   :path => 'site-cookbooks/patcon'
 
-cookbook 'platform_packages'
+# Sprout
 
 cookbook 'meta',
   :path => 'site-cookbooks/meta'
