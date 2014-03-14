@@ -46,8 +46,7 @@ If you're running under rvm or rbenv, you shouldn't preface the following comman
 
 ## Todo
 
-- get homesick working
-- kill pgup/pgdown keys
 - chromebook envvar (for dot-files)
 - fix `.ssh` dir bindfs
 - trackpad sensitivity
+- clean up dotfiles

@@ -11,6 +11,7 @@ recipes:
 - patcon::gnome-do
 - patcon::hub
 - patcon::dotfiles
+- patcon::todotxt-cli
 - janus
 - dropbox
 
