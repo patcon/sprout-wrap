@@ -12,6 +12,7 @@ recipes:
 - patcon::hub
 - patcon::dotfiles
 - patcon::todotxt-cli
+- vagrant
 - janus
 - dropbox
 
@@ -37,3 +38,7 @@ node_attributes:
       - name: vim
   sprout:
     home: /home/patcon
+  vagrant:
+    url: https://dl.bintray.com/mitchellh/vagrant/vagrant_1.5.1_x86_64.deb
+    plugins:
+      - vagrant-cachier

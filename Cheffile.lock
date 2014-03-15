@@ -24,6 +24,9 @@ SITE
       build-essential (>= 0.0.0)
       yum (~> 3.0)
       yum-epel (>= 0.0.0)
+    vagrant (0.2.0)
+      dmg (>= 0.0.0)
+      windows (>= 0.0.0)
     windows (1.30.0)
       chef_handler (>= 0.0.0)
     yum (3.1.4)
@@ -183,4 +186,5 @@ DEPENDENCIES
   sprout-osx-rubymine (>= 0)
   sprout-osx-settings (>= 0)
   sprout-pivotal (>= 0)
+  vagrant (>= 0)
 

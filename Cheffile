@@ -4,6 +4,7 @@ cookbook 'apt'
 cookbook 'platform_packages'
 cookbook 'python'
 cookbook 'homesick'
+cookbook 'vagrant'
 
 cookbook 'dropbox',
   :github => 'peplin/dropbox-cookbook'
