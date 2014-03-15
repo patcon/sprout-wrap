@@ -17,6 +17,8 @@ recipes:
 
 node_attributes:
   janus:
+    packages:
+      - vim-gtk
     users:
       - <%= ENV['USER'] %>
   patcon:
