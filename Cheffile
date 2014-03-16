@@ -1,10 +1,15 @@
 site 'http://community.opscode.com/api/v1'
 
 cookbook 'apt'
+cookbook 'docker'
+cookbook 'homesick'
 cookbook 'platform_packages'
 cookbook 'python'
-cookbook 'homesick'
 cookbook 'vagrant'
+
+cookbook 'modules',
+  :git => 'https://github.com/patcon/modules-cookbook.git',
+  :ref => 'fix-open-hash'
 
 cookbook 'dropbox',
   :github => 'peplin/dropbox-cookbook'
