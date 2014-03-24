@@ -12,6 +12,7 @@ recipes:
 - patcon::hub
 - patcon::dotfiles
 - patcon::todotxt-cli
+- patcon::java
 - vagrant
 - docker
 - janus
