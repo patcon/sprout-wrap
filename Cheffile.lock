@@ -49,6 +49,13 @@ SITE
       yum (~> 3.0)
 
 GIT
+  remote: https://github.com/patcon/chef-janus
+  ref: ensure-rake-present
+  sha: 43f0f898373353ed8ee73fbacc8498d6d586c0ca
+  specs:
+    janus (0.0.3)
+
+GIT
   remote: https://github.com/patcon/modules-cookbook.git
   ref: fix-open-hash
   sha: 1fe4d3cca139e9d3f774a4c7886bbc678236883d
@@ -167,13 +174,6 @@ GIT
   specs:
     sprout-homebrew (0.1.0)
       homebrew (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pwelch/chef-janus
-  ref: master
-  sha: 1a64a15f9607f2c29c634310e76268dbc1fbe022
-  specs:
-    janus (0.0.3)
 
 PATH
   remote: site-cookbooks/meta
