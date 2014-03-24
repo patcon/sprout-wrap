@@ -20,3 +20,13 @@ patcon_gconf "/apps/guake/keybindings/local/clipboard_paste" do
   attr_val "<Control>v"
   user node['patcon']['user']
 end
+
+patcon_gconf "/apps/guake/keybindings/local/previous_tab" do
+  attr_val "<Control>braceleft"
+  user node['patcon']['user']
+end
+
+patcon_gconf "/apps/guake/keybindings/local/next_tab" do
+  attr_val "<Control>braceright"
+  user node['patcon']['user']
+end
