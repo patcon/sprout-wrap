@@ -1,6 +1,6 @@
 recipes:
 - platform_packages
-- sprout-osx-apps::zsh
+- patcon::zsh
 - sprout-osx-base
 - pivotal_workstation::oh_my_zsh
 - patcon::guake
