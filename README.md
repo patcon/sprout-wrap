@@ -50,3 +50,5 @@ If you're running under rvm or rbenv, you shouldn't preface the following comman
 - fix `.ssh` dir bindfs
 - trackpad sensitivity
 - clean up dotfiles
+- touchpad fixes - http://code.technically.us/post/50837506478/senistive-touchpads-and-ubuntu
+- gpointing-device-settings (palm-detection)
