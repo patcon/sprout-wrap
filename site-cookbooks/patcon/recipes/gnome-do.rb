@@ -1,7 +1,7 @@
 package "gnome-do"
 package "gnome-do-plugins"
 
-patcon_gconf "/apps/gnome-do/preferences/Do/CorePreferences/SummonKeyBinding" do
+patcon_gconf "/apps/gnome-do/preferences/Do/Platform/Common/AbstractKeyBindingService/Summon_Do" do
   attr_val "<Super>space"
   user node['patcon']['user']
 end
