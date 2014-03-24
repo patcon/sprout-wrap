@@ -7,7 +7,7 @@ patcon_gconf "/apps/guake/style/background/transparency" do
 end
 
 patcon_gconf "/apps/guake/keybindings/global/show_hide" do
-  attr_val "<Super>grave"
+  attr_val "<Super>Escape"
   user node['patcon']['user']
 end
 
