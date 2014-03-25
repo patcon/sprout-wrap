@@ -14,6 +14,7 @@ recipes:
 - patcon::todotxt-cli
 - patcon::java
 - patcon::twitter-cli
+- patcon::travis-cli
 - vagrant
 - docker
 - janus
