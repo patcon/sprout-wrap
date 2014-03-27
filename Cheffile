@@ -16,9 +16,7 @@ cookbook 'dropbox',
   :github => 'peplin/dropbox-cookbook'
 
 cookbook 'janus',
-  # Pending PR: https://github.com/pwelch/chef-janus/pull/3
-  :github => 'patcon/chef-janus',
-  :ref => 'ensure-rake-present'
+  :github => 'pwelch/chef-janus'
 
 cookbook 'patcon',
   :path => 'site-cookbooks/patcon'
