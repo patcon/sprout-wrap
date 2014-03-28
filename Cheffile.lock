@@ -4,7 +4,7 @@ SITE
     apt (2.3.8)
     build-essential (1.4.4)
     chef_handler (1.1.5)
-    dmg (2.1.4)
+    dmg (2.2.0)
     docker (0.31.0)
       apt (>= 0.0.0)
       git (>= 0.0.0)
@@ -29,6 +29,7 @@ SITE
       git (>= 0.0.0)
     lxc (1.1.8)
       dpkg_autostart (~> 0.1.10)
+    modules (0.2.0)
     pacman (1.1.1)
     platform_packages (0.4.2)
     python (1.4.6)
@@ -47,13 +48,6 @@ SITE
     yum (3.1.4)
     yum-epel (0.3.4)
       yum (~> 3.0)
-
-GIT
-  remote: https://github.com/patcon/modules-cookbook.git
-  ref: fix-open-hash
-  sha: 1fe4d3cca139e9d3f774a4c7886bbc678236883d
-  specs:
-    modules (0.2.0)
 
 GIT
   remote: https://github.com/peplin/dropbox-cookbook

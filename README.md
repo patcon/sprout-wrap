@@ -27,7 +27,7 @@ Don't forget to start up Xcode once it's installed so that you can agree to the 
   
 ### 3. Clone this project
 
-    sudo apt-get install rubygems git
+    sudo apt-get install ruby1.9.1-dev git
     git clone https://github.com/pivotal-sprout/sprout-wrap.git
     cd sprout-wrap
 
