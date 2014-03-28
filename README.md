@@ -52,3 +52,15 @@ If you're running under rvm or rbenv, you shouldn't preface the following comman
 - clean up dotfiles
 - touchpad fixes - http://code.technically.us/post/50837506478/senistive-touchpads-and-ubuntu
 - gpointing-device-settings (palm-detection)
+- heroku plugins
+  - pipeline
+  - heroku-accounts
+  - git://github.com/ddollar/heroku-config.git
+- keybase-installer - npm
+- ghi
+- google hangout plugin deb
+- why does guake need to be restarted for hotkey?
+- firefox extensions
+- screencloud (https://github.com/olav-st/screencloud/issues/8)
+- disable HUD (http://askubuntu.com/questions/122209/how-do-i-modify-or-disable-the-huds-use-of-the-alt-key)
+- skype
