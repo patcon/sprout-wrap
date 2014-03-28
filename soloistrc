@@ -36,6 +36,7 @@ node_attributes:
   platform_packages:
     pkgs:
       - name: aptitude
+      - name: chromium-browser
       - name: curl
       - name: firefox
       - name: gconf-editor
