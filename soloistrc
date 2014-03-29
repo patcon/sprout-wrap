@@ -45,6 +45,7 @@ node_attributes:
       - name: synapse
       - name: tree
       - name: vim
+      - name: xclip
   sprout:
     home: /home/patcon
   vagrant:
