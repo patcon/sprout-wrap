@@ -54,7 +54,7 @@ If you're running under rvm or rbenv, you shouldn't preface the following comman
 - gpointing-device-settings (palm-detection)
 - heroku plugins
   - pipeline
-  - heroku-accounts
+  - https://github.com/ddollar/heroku-accounts
   - git://github.com/ddollar/heroku-config.git
 - keybase-installer - npm
 - ghi
@@ -64,3 +64,20 @@ If you're running under rvm or rbenv, you shouldn't preface the following comman
 - screencloud (https://github.com/olav-st/screencloud/issues/8)
 - disable HUD (http://askubuntu.com/questions/122209/how-do-i-modify-or-disable-the-huds-use-of-the-alt-key)
 - skype
+- yeoman
+  - generator-generator
+  - generator-hubot-scripts
+- python-dev
+- private-dotfiles
+  - npmjs
+  - github
+  - heroku
+- gems
+  - travis-lint
+  - gist
+  - ghi
+- gittip
+  - apt-get: libpq-dev
+- postgres-9.1
+- ngrok
+- adobe air: http://askubuntu.com/questions/87447/how-can-i-install-adobe-air
