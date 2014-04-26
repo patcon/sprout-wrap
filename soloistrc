@@ -41,7 +41,9 @@ node_attributes:
       - name: firefox
       - name: gconf-editor
       - name: gparted
+      - name: inkscape
       - name: man-db
+      - name: nfs-kernel-server
       - name: synapse
       - name: tree
       - name: vim
