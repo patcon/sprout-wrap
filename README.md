@@ -81,3 +81,4 @@ If you're running under rvm or rbenv, you shouldn't preface the following comman
 - postgres-9.1
 - ngrok
 - adobe air: http://askubuntu.com/questions/87447/how-can-i-install-adobe-air
+- background image customization: http://askubuntu.com/questions/313526/changing-login-screen-wallpaper
