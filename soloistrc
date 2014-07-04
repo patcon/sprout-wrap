@@ -36,7 +36,9 @@ node_attributes:
   platform_packages:
     pkgs:
       - name: aptitude
+      - name: calibre
       - name: chromium-browser
+      - name: colordiff
       - name: curl
       - name: firefox
       - name: gconf-editor
